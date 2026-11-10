@@ -2,4 +2,10 @@
   (version 7)
 
   (lib (name "LightControl") (type "KiCad") (uri "${KIPRJMOD}/light-control-custom.kicad_sym") (options "") (descr ""))
-  (lib (name "FNIRS") (type "KiCad") (uri "${KIPRJMOD}/FNIRS.kicad_sym") (options "") (descr "")))
+  (lib (name "FNIRS") (type "KiCad") (uri "${KIPRJMOD}/FNIRS.kicad_sym") (options "") (descr ""))
+  (lib (name "MCU_ST_STM32F1") (type "KiCad") (uri "/home/yunacelisse/rocos-transmitter/rocos-transmitter/libraries/symbols/MCU_ST_STM32F1.kicad_sym") (options "") (descr ""))
+  (lib (name "Device") (type "KiCad") (uri "/home/yunacelisse/rocos-transmitter/rocos-transmitter/libraries/symbols/Device.kicad_sym") (options "") (descr ""))
+  (lib (name "power") (type "KiCad") (uri "/home/yunacelisse/rocos-transmitter/rocos-transmitter/libraries/symbols/power.kicad_sym") (options "") (descr ""))
+  (lib (name "Switch") (type "KiCad") (uri "/home/yunacelisse/rocos-transmitter/rocos-transmitter/libraries/symbols/Switch.kicad_sym") (options "") (descr ""))
+  (lib (name "Connector") (type "KiCad") (uri "/home/yunacelisse/rocos-transmitter/rocos-transmitter/libraries/symbols/Connector.kicad_sym") (options "") (descr ""))
+  (lib (name "Connector_Generic") (type "KiCad") (uri "/home/yunacelisse/rocos-transmitter/rocos-transmitter/libraries/symbols/Connector_Generic.kicad_sym") (options "") (descr "")))

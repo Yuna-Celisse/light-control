@@ -1,11 +1,492 @@
 {
-  "coordinates": {
-    "kicad_version": "10.0.7",
-    "reason": "KiCad 10.0.7 carries the fix for the ERC JSON coordinate scaling defect (kicad#25582, fixed in 10.0.7), so its coordinates are passed through unchanged.",
-    "status": "verbatim"
-  },
-  "errors": 0,
-  "total": 0,
-  "violations": [],
-  "warnings": 0
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-10T23:48:24",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.8",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/5627b150-0a1a-4937-b777-1992b8e63110",
+            "violations": [
+                {
+                    "description": "符号 'USB_C_Receptacle_USB2.0_16P' 与来源库 'Connector' 中的符号存在差异",
+                    "items": [
+                        {
+                            "description": "符号 J1 [USB_C_Receptacle_USB2.0_16P]",
+                            "pos": {
+                                "x": 50.8,
+                                "y": 73.66
+                            },
+                            "uuid": "e81e0331-2458-409a-831a-84e503759a0e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "符号 'C' 与来源库 'Device' 中的符号存在差异",
+                    "items": [
+                        {
+                            "description": "符号 C15 [C]",
+                            "pos": {
+                                "x": 40.64,
+                                "y": 40.64
+                            },
+                            "uuid": "f5e585e1-d802-47ee-b580-5e258327334e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "符号 'R' 与来源库 'Device' 中的符号存在差异",
+                    "items": [
+                        {
+                            "description": "符号 R11 [R]",
+                            "pos": {
+                                "x": 40.64,
+                                "y": 161.29
+                            },
+                            "uuid": "b31b1c4c-fc63-4b5e-a9c4-bd4c01c62ee4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "符号 'SW_Push' 与来源库 'Switch' 中的符号存在差异",
+                    "items": [
+                        {
+                            "description": "符号 SW3 [SW_Push]",
+                            "pos": {
+                                "x": 50.8,
+                                "y": 88.9
+                            },
+                            "uuid": "587048a1-c0a6-48ec-826e-45b4aa01b610"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "符号 'SW_Push' 与来源库 'Switch' 中的符号存在差异",
+                    "items": [
+                        {
+                            "description": "符号 SW2 [SW_Push]",
+                            "pos": {
+                                "x": 64.77,
+                                "y": 161.29
+                            },
+                            "uuid": "9a229fd6-5f0c-4cf6-8e20-d99696f92c40"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "符号 'R' 与来源库 'Device' 中的符号存在差异",
+                    "items": [
+                        {
+                            "description": "符号 R10 [R]",
+                            "pos": {
+                                "x": 64.77,
+                                "y": 191.77
+                            },
+                            "uuid": "ab65e73f-05dc-4ff1-91f4-35a930df8d04"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "符号 'C' 与来源库 'Device' 中的符号存在差异",
+                    "items": [
+                        {
+                            "description": "符号 C16 [C]",
+                            "pos": {
+                                "x": 71.12,
+                                "y": 40.64
+                            },
+                            "uuid": "877d100d-1210-4f17-a438-aac8ae822dae"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "符号 'R' 与来源库 'Device' 中的符号存在差异",
+                    "items": [
+                        {
+                            "description": "符号 R12 [R]",
+                            "pos": {
+                                "x": 76.2,
+                                "y": 101.6
+                            },
+                            "uuid": "94f41d07-f999-47f9-a8c5-fc9f697aefe6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "符号 'LED' 与来源库 'Device' 中的符号存在差异",
+                    "items": [
+                        {
+                            "description": "符号 D1 [LED]",
+                            "pos": {
+                                "x": 86.36,
+                                "y": 191.77
+                            },
+                            "uuid": "631840c1-542c-403f-9787-b61fd8fe5e97"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "符号 'SW_Push' 与来源库 'Switch' 中的符号存在差异",
+                    "items": [
+                        {
+                            "description": "符号 SW1 [SW_Push]",
+                            "pos": {
+                                "x": 93.98,
+                                "y": 73.66
+                            },
+                            "uuid": "24a0302c-6331-48c7-a652-e73b945e10b4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "符号 'C' 与来源库 'Device' 中的符号存在差异",
+                    "items": [
+                        {
+                            "description": "符号 C38 [C]",
+                            "pos": {
+                                "x": 99.06,
+                                "y": 124.46
+                            },
+                            "uuid": "25450b76-f609-49c7-959c-676ace418ca1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "符号 'C' 与来源库 'Device' 中的符号存在差异",
+                    "items": [
+                        {
+                            "description": "符号 C17 [C]",
+                            "pos": {
+                                "x": 101.6,
+                                "y": 40.64
+                            },
+                            "uuid": "67c36c17-f2a9-4627-ae1b-95b6a4e1fbd3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "符号 'Crystal_GND24' 与来源库 'Device' 中的符号存在差异",
+                    "items": [
+                        {
+                            "description": "符号 Y1 [Crystal_GND24]",
+                            "pos": {
+                                "x": 110.49,
+                                "y": 106.68
+                            },
+                            "uuid": "bc33370b-962a-45f2-a971-73775cebdffa"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "符号 'C' 与来源库 'Device' 中的符号存在差异",
+                    "items": [
+                        {
+                            "description": "符号 C18 [C]",
+                            "pos": {
+                                "x": 120.65,
+                                "y": 64.77
+                            },
+                            "uuid": "680960d3-260a-4620-b0b2-dc8d53e4ae57"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "符号 'C' 与来源库 'Device' 中的符号存在差异",
+                    "items": [
+                        {
+                            "description": "符号 C39 [C]",
+                            "pos": {
+                                "x": 120.65,
+                                "y": 124.46
+                            },
+                            "uuid": "1006f8f0-0877-47e4-8efa-84dab04e4412"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "符号 'C' 与来源库 'Device' 中的符号存在差异",
+                    "items": [
+                        {
+                            "description": "符号 C33 [C]",
+                            "pos": {
+                                "x": 132.08,
+                                "y": 40.64
+                            },
+                            "uuid": "42c80169-e88b-49e1-92f0-a4fef9025d13"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "符号 'R' 与来源库 'Device' 中的符号存在差异",
+                    "items": [
+                        {
+                            "description": "符号 R41 [R]",
+                            "pos": {
+                                "x": 137.16,
+                                "y": 124.46
+                            },
+                            "uuid": "2e3d4e3b-a1cb-451e-b558-f00082dfa630"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "符号 'R' 与来源库 'Device' 中的符号存在差异",
+                    "items": [
+                        {
+                            "description": "符号 R9 [R]",
+                            "pos": {
+                                "x": 139.7,
+                                "y": 69.85
+                            },
+                            "uuid": "3fa139ee-5948-465f-a8a3-96505a1a6176"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "符号 'C' 与来源库 'Device' 中的符号存在差异",
+                    "items": [
+                        {
+                            "description": "符号 C35 [C]",
+                            "pos": {
+                                "x": 162.56,
+                                "y": 40.64
+                            },
+                            "uuid": "9ac99f55-a391-4f71-9833-c33ee6caf73b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "符号 'C' 与来源库 'Device' 中的符号存在差异",
+                    "items": [
+                        {
+                            "description": "符号 C37 [C]",
+                            "pos": {
+                                "x": 193.04,
+                                "y": 40.64
+                            },
+                            "uuid": "5477df76-dab8-43f2-ac79-dc50552c5fc0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "符号 'R' 与来源库 'Device' 中的符号存在差异",
+                    "items": [
+                        {
+                            "description": "符号 R42 [R]",
+                            "pos": {
+                                "x": 215.9,
+                                "y": 129.54
+                            },
+                            "uuid": "adae8df7-7322-4db4-9fbf-8f8142c9678e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "符号 'C' 与来源库 'Device' 中的符号存在差异",
+                    "items": [
+                        {
+                            "description": "符号 C34 [C]",
+                            "pos": {
+                                "x": 223.52,
+                                "y": 40.64
+                            },
+                            "uuid": "5d696b4e-425e-41d4-8573-6253cf49b76c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "符号 'R' 与来源库 'Device' 中的符号存在差异",
+                    "items": [
+                        {
+                            "description": "符号 R37 [R]",
+                            "pos": {
+                                "x": 223.52,
+                                "y": 114.3
+                            },
+                            "uuid": "e2a8253e-7825-4a54-9e97-b3f9f1eaaeb1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "符号 'R' 与来源库 'Device' 中的符号存在差异",
+                    "items": [
+                        {
+                            "description": "符号 R36 [R]",
+                            "pos": {
+                                "x": 228.6,
+                                "y": 111.76
+                            },
+                            "uuid": "5bf92d8a-2b4f-4b69-9374-3c5a028b7cb3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "符号 'Conn_01x01' 与来源库 'Connector_Generic' 中的符号存在差异",
+                    "items": [
+                        {
+                            "description": "符号 TP1 [Conn_01x01]",
+                            "pos": {
+                                "x": 256.54,
+                                "y": 190.5
+                            },
+                            "uuid": "ac1a7b22-2898-4750-ad70-0a23c5f9243f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "符号 'Conn_01x01' 与来源库 'Connector_Generic' 中的符号存在差异",
+                    "items": [
+                        {
+                            "description": "符号 TP2 [Conn_01x01]",
+                            "pos": {
+                                "x": 256.54,
+                                "y": 205.74
+                            },
+                            "uuid": "d644079c-f24b-4963-955f-6187beccf559"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "符号 'Conn_01x06' 与来源库 'Connector_Generic' 中的符号存在差异",
+                    "items": [
+                        {
+                            "description": "符号 J2 [Conn_01x06]",
+                            "pos": {
+                                "x": 292.1,
+                                "y": 157.48
+                            },
+                            "uuid": "e262d568-3d7a-4435-9e00-86eacca65a91"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                }
+            ]
+        },
+        {
+            "path": "/01_USB_Protect/",
+            "uuid_path": "/5627b150-0a1a-4937-b777-1992b8e63110/19f48e63-f7e9-419e-83b8-9cb226023d18",
+            "violations": []
+        },
+        {
+            "path": "/02_Power/",
+            "uuid_path": "/5627b150-0a1a-4937-b777-1992b8e63110/65aca6a1-a8fc-4d48-a55e-3fbb78d641b1",
+            "violations": []
+        },
+        {
+            "path": "/03_STM32F103/",
+            "uuid_path": "/5627b150-0a1a-4937-b777-1992b8e63110/dd0a7d85-b3d5-4155-b45f-d79a12264fb3",
+            "violations": []
+        },
+        {
+            "path": "/04_FNIRS_ADC/",
+            "uuid_path": "/5627b150-0a1a-4937-b777-1992b8e63110/db6ce2f4-0a75-4155-aa6c-d5aebec2d701",
+            "violations": []
+        },
+        {
+            "path": "/05_AS7341_Left/",
+            "uuid_path": "/5627b150-0a1a-4937-b777-1992b8e63110/fdd7a206-32c5-40e8-ab42-f158e46272f4",
+            "violations": []
+        },
+        {
+            "path": "/06_AS7341_Right/",
+            "uuid_path": "/5627b150-0a1a-4937-b777-1992b8e63110/e1d74650-14ce-416c-addd-a82cbd040c47",
+            "violations": []
+        },
+        {
+            "path": "/07_FNIRS_POWER/",
+            "uuid_path": "/5627b150-0a1a-4937-b777-1992b8e63110/7bcca392-af46-4e5b-b8cb-4f6e44d09105",
+            "violations": []
+        },
+        {
+            "path": "/08_FNIRS_SHORT/",
+            "uuid_path": "/5627b150-0a1a-4937-b777-1992b8e63110/699de0b6-30e9-46f6-ba87-08fdce5db7e4",
+            "violations": []
+        },
+        {
+            "path": "/09_FNIRS_LONG/",
+            "uuid_path": "/5627b150-0a1a-4937-b777-1992b8e63110/c6ee2224-5960-4638-b46b-3172484d87a0",
+            "violations": []
+        },
+        {
+            "path": "/10_FNIRS_DRIVE/",
+            "uuid_path": "/5627b150-0a1a-4937-b777-1992b8e63110/09b9dfbd-a642-43ca-829e-d2de201e1d10",
+            "violations": []
+        }
+    ],
+    "source": "light-control.kicad_sch"
 }
