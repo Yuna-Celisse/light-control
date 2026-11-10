@@ -1,0 +1,5 @@
+(version 1)
+
+(rule "M3 screw washer copper clearance 7mm"
+  (condition "A.memberOfFootprint('H*')")
+  (constraint hole_clearance (min 1.9mm)))

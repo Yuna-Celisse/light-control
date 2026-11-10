@@ -1,0 +1,2880 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "5627b150-0a1a-4937-b777-1992b8e63110")
+	(paper "A3")
+	(lib_symbols
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+1V8"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+1V8"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+1V8\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+1V8_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+1V8_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+3V3"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "LIGHT CONTROL / SYSTEM OVERVIEW"
+		(exclude_from_sim no)
+		(at 25.4 21.59 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "02bfc988-8527-44bb-a5f0-dcc6f550c0b4")
+	)
+	(text "ESP32-S3 controller"
+		(exclude_from_sim no)
+		(at 165.1 34.29 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "0f9b9bfe-3652-41ad-abac-ae453f3ac2f8")
+	)
+	(text "4 x M3 / 3.2 mm NPTH; 7 mm screw clearance BOTH sides\nBoard 96 x 42 mm; hole pitch 88 x 34 mm; edge inset 4 mm"
+		(exclude_from_sim no)
+		(at 160 199 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "33187bb1-f16b-4ed3-8560-13ed32b08b2f")
+	)
+	(text "Probe interface + ADC"
+		(exclude_from_sim no)
+		(at 304.8 34.29 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "3849f2fe-e734-4ebb-bc29-eb53fb26dab0")
+	)
+	(text "USB-C power + data"
+		(exclude_from_sim no)
+		(at 25.4 34.29 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "4befcdba-93f2-4537-98ed-1e7127b70782")
+	)
+	(text "USB-powered / ESP32-S3FN8 QFN / no antenna or RF matching.\nFront: controller + dual AS7341. Back: 760/850nm reflectance fNIRS.\nDefault LED/probe power OFF. No battery connector."
+		(exclude_from_sim no)
+		(at 25.4 238.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a1126e90-1ea3-434f-ad96-17b05900a2ed")
+	)
+	(wire
+		(pts
+			(xy 381 238.76) (xy 388.62 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0516d409-d1fc-49bb-998a-0185478df22e")
+	)
+	(wire
+		(pts
+			(xy 165.1 160.02) (xy 157.48 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06b88f8d-4968-4040-91ae-a008aa4f4ccc")
+	)
+	(wire
+		(pts
+			(xy 241.3 60.96) (xy 248.92 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b1fdb7c-6931-4ab5-9558-a36e8cb27103")
+	)
+	(wire
+		(pts
+			(xy 101.6 60.96) (xy 165.1 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d1d3108-6bf3-479f-ac1b-e1e484c07a62")
+	)
+	(wire
+		(pts
+			(xy 381 142.24) (xy 388.62 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d6c87e1-1c48-4d14-b25c-618124a9c372")
+	)
+	(wire
+		(pts
+			(xy 119.38 50.8) (xy 119.38 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "323c5204-2816-4184-9dc1-cf554d28c631")
+	)
+	(wire
+		(pts
+			(xy 241.3 132.08) (xy 248.92 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36214a59-47b5-40a9-9782-32acb1031e94")
+	)
+	(wire
+		(pts
+			(xy 381 208.28) (xy 388.62 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c9d46a0-1837-4a1c-8b20-58f00607a068")
+	)
+	(wire
+		(pts
+			(xy 241.3 91.44) (xy 248.92 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ea3e8ce-5d32-4500-bd0f-82818324f028")
+	)
+	(wire
+		(pts
+			(xy 241.3 81.28) (xy 248.92 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f57aabc-d0dc-4e46-94cd-a4668262614f")
+	)
+	(wire
+		(pts
+			(xy 381 60.96) (xy 388.62 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fea7f3b-c0d1-4903-b654-944d5b2c188b")
+	)
+	(wire
+		(pts
+			(xy 101.6 172.72) (xy 109.22 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45c45341-9823-4f92-b4cf-9ccd76cde7af")
+	)
+	(wire
+		(pts
+			(xy 381 165.1) (xy 388.62 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4944d816-60c5-468e-8479-7edf3343e3c1")
+	)
+	(wire
+		(pts
+			(xy 381 223.52) (xy 388.62 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55aee5e5-39a8-4cb9-89f1-cbcbf87780f6")
+	)
+	(wire
+		(pts
+			(xy 101.6 152.4) (xy 109.22 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "599087af-bf24-406e-b397-bbad2871e76d")
+	)
+	(wire
+		(pts
+			(xy 381 172.72) (xy 388.62 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62f966d9-4f8e-411e-a4a4-8f3762c284a4")
+	)
+	(wire
+		(pts
+			(xy 381 81.28) (xy 388.62 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a5a9f4d-089c-433f-8948-2c2298a4af89")
+	)
+	(wire
+		(pts
+			(xy 381 157.48) (xy 388.62 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b97fd7d-409e-46e7-86a4-335f257fa3f5")
+	)
+	(wire
+		(pts
+			(xy 241.3 101.6) (xy 248.92 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6da59b6e-c144-46bb-9091-2aa4b6135c9a")
+	)
+	(wire
+		(pts
+			(xy 101.6 162.56) (xy 109.22 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79b6817e-d7bf-47a7-9a62-5dd70f4d238c")
+	)
+	(wire
+		(pts
+			(xy 241.3 111.76) (xy 248.92 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e475ba6-632d-4e3f-938b-18d20765600b")
+	)
+	(wire
+		(pts
+			(xy 241.3 142.24) (xy 248.92 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fa829a9-bbc9-4322-a198-96fae30957a9")
+	)
+	(wire
+		(pts
+			(xy 101.6 71.12) (xy 165.1 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "858717e3-8886-466e-b8a6-a9b6cff8a941")
+	)
+	(wire
+		(pts
+			(xy 381 149.86) (xy 388.62 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cf99b3d-013d-4997-b341-e17e43aa3e9d")
+	)
+	(wire
+		(pts
+			(xy 101.6 81.28) (xy 165.1 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e5e4606-fe16-459f-940a-deead6e6ec98")
+	)
+	(wire
+		(pts
+			(xy 101.6 182.88) (xy 109.22 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91ea6b26-235c-4470-912f-b1b267268f34")
+	)
+	(wire
+		(pts
+			(xy 241.3 71.12) (xy 248.92 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94bd452b-5d55-4d28-83a6-0b00a8743738")
+	)
+	(wire
+		(pts
+			(xy 381 101.6) (xy 388.62 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95400f9c-d940-4703-b312-56baaa231eb8")
+	)
+	(wire
+		(pts
+			(xy 381 50.8) (xy 388.62 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "998031db-777a-4c81-aa74-b79421f42bd2")
+	)
+	(wire
+		(pts
+			(xy 381 231.14) (xy 388.62 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e8a12d0-54da-4282-9811-18a428628f77")
+	)
+	(wire
+		(pts
+			(xy 241.3 121.92) (xy 248.92 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f14d37b-694e-40ee-af9a-9d78c1defa8e")
+	)
+	(wire
+		(pts
+			(xy 101.6 50.8) (xy 119.38 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac3f1364-b50e-4f10-a5d9-f8ef520095e9")
+	)
+	(wire
+		(pts
+			(xy 381 91.44) (xy 388.62 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b057d982-9604-4025-ab0a-b3b80bbf59e3")
+	)
+	(wire
+		(pts
+			(xy 381 215.9) (xy 388.62 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdff27bd-680a-4dca-b170-5fd992dfc78b")
+	)
+	(wire
+		(pts
+			(xy 381 111.76) (xy 388.62 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d27637c4-acf6-42a0-91fc-8ad50b56b351")
+	)
+	(wire
+		(pts
+			(xy 241.3 50.8) (xy 248.92 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4e22f5f-cc95-4158-adcd-a886d0918521")
+	)
+	(wire
+		(pts
+			(xy 381 71.12) (xy 388.62 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edc84a5d-1468-4d1f-8936-ddb7f7ae8ad0")
+	)
+	(wire
+		(pts
+			(xy 119.38 142.24) (xy 101.6 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edd62139-6e66-40ff-bf36-41be7eaebefb")
+	)
+	(label "AS7341_R_INT"
+		(at 248.92 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "08e163c0-df6d-4bc9-b817-754afd5a8b9c")
+	)
+	(label "I2C0_SCL"
+		(at 388.62 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0dae77c0-6987-41a2-bb71-8f406a628217")
+	)
+	(label "I2C1_SDA"
+		(at 388.62 215.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "138f494e-826a-4179-a697-e3d1cffc98bd")
+	)
+	(label "AS7341_L_INT"
+		(at 248.92 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2c5f6139-32e2-4acb-a876-592ce88eba42")
+	)
+	(label "EN_850"
+		(at 388.62 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5eefc0ab-bfc3-45ae-883b-e57e2f228573")
+	)
+	(label "PROBE_EN"
+		(at 248.92 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6ea477e6-59d6-47a7-b0d6-78609f4a3712")
+	)
+	(label "PROBE_EN"
+		(at 109.22 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7580fd68-c25e-42da-b343-2b7d2579b6ce")
+	)
+	(label "ADC_ALERT"
+		(at 388.62 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7c883412-2b7d-49f9-ae9f-3aa61e828542")
+	)
+	(label "I2C1_SCL"
+		(at 388.62 223.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7eff7434-cf54-4a2c-bc7a-1383fd6e8cd5")
+	)
+	(label "EN_850"
+		(at 248.92 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "91d6d4bb-1e0a-4116-a1f1-e39786229378")
+	)
+	(label "I2C1_SCL"
+		(at 248.92 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a0e3889f-6219-48d0-a1ff-c14117467747")
+	)
+	(label "I2C0_SDA"
+		(at 248.92 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a24122ea-b502-4bce-822d-8eeeac4a2b2b")
+	)
+	(label "EN_760"
+		(at 248.92 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a634383a-903a-4302-af51-0357bba40d3f")
+	)
+	(label "I2C0_SDA"
+		(at 388.62 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ae5c0be9-ebfe-4a96-b92d-a89a0e0b212d")
+	)
+	(label "I2C0_SCL"
+		(at 388.62 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b4fe6090-c907-4f51-9cc8-6316ad011a6c")
+	)
+	(label "EN_760"
+		(at 388.62 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bb9f05ba-04ac-46ce-a563-219edaeaf6aa")
+	)
+	(label "I2C0_SCL"
+		(at 248.92 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c64f4a5d-2dd6-487f-9202-6bf4e4801595")
+	)
+	(label "ADC_ALERT"
+		(at 248.92 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d956b33a-ebcb-4841-952b-53aac0e0c017")
+	)
+	(label "VBUS"
+		(at 119.38 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dbf6d690-7f5f-4f2a-a039-d53b42aec8cf")
+	)
+	(label "I2C0_SDA"
+		(at 388.62 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e2fb9211-a181-490e-bc79-966e2382fd77")
+	)
+	(label "AS7341_L_INT"
+		(at 388.62 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e3dce1df-5382-440d-a6e2-fb828c5ce0ee")
+	)
+	(label "AS7341_R_INT"
+		(at 388.62 208.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ee8a9a73-cc5b-4907-8a0d-57d1317e2bfc")
+	)
+	(label "I2C1_SDA"
+		(at 248.92 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fff6bba4-43bd-48c5-a9da-a5117af14f48")
+	)
+	(global_label "VPROBE_5V"
+		(shape input)
+		(at 388.62 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "136cd33c-5c41-4a14-9f86-97ce2e24f6d2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 388.62 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "VPROBE_5V"
+		(shape input)
+		(at 109.22 182.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3f668f85-1075-4f7f-bc98-5e9944a7012b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 109.22 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 388.62 165.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1abdce91-e486-4b4d-a7f8-cc6e5ebe1fbc")
+		(property "Reference" "#PWR7005"
+			(at 388.62 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 388.62 161.544 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 388.62 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 388.62 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 388.62 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2b606d2e-73f4-4b1b-aa5b-740a57dbc2c2")
+		)
+		(instances
+			(project "light-control"
+				(path "/5627b150-0a1a-4937-b777-1992b8e63110"
+					(reference "#PWR7005")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 109.22 162.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5ec7fa27-31d9-4bc1-8110-ed6ed5ac09dc")
+		(property "Reference" "#PWR7001"
+			(at 109.22 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 109.22 159.004 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 109.22 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a0888a5b-cb9e-4947-a360-16b9a3bba1ff")
+		)
+		(instances
+			(project "light-control"
+				(path "/5627b150-0a1a-4937-b777-1992b8e63110"
+					(reference "#PWR7001")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 170.18 209.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6161348c-4913-42f1-bf68-779ca6bad726")
+		(property "Reference" "H1"
+			(at 170.18 204.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "M3_NPTH_3.2mm"
+			(at 170.18 206.375 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Lights_Edge:MountingHole_M3_3.2mm_Clearance7mm"
+			(at 170.18 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 170.18 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "light-control"
+				(path "/5627b150-0a1a-4937-b777-1992b8e63110"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V8")
+		(at 388.62 238.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "803ad279-2529-45a3-95ea-627f1b967e82")
+		(property "Reference" "#PWR7008"
+			(at 388.62 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+1V8"
+			(at 388.62 235.204 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 388.62 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 388.62 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V8\""
+			(at 388.62 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "40430a66-7782-43ac-a003-b6f09effef1a")
+		)
+		(instances
+			(project "light-control"
+				(path "/5627b150-0a1a-4937-b777-1992b8e63110"
+					(reference "#PWR7008")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 388.62 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "93c5987d-8904-40a5-a15b-7c238f531f96")
+		(property "Reference" "#PWR7004"
+			(at 388.62 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 388.62 108.204 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 388.62 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 388.62 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 388.62 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "843e4b74-8c7a-4932-b80b-fec3544e59cd")
+		)
+		(instances
+			(project "light-control"
+				(path "/5627b150-0a1a-4937-b777-1992b8e63110"
+					(reference "#PWR7004")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 199.39 209.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9443f4a2-11ec-4e67-93b4-9ed355693d84")
+		(property "Reference" "H2"
+			(at 199.39 204.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "M3_NPTH_3.2mm"
+			(at 199.39 206.375 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Lights_Edge:MountingHole_M3_3.2mm_Clearance7mm"
+			(at 199.39 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 199.39 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "light-control"
+				(path "/5627b150-0a1a-4937-b777-1992b8e63110"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 229.87 209.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "967f8592-f181-4908-a2a9-d916e64bfb3e")
+		(property "Reference" "H3"
+			(at 229.87 204.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "M3_NPTH_3.2mm"
+			(at 229.87 206.375 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Lights_Edge:MountingHole_M3_3.2mm_Clearance7mm"
+			(at 229.87 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 229.87 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "light-control"
+				(path "/5627b150-0a1a-4937-b777-1992b8e63110"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V8")
+		(at 388.62 172.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "aa76b94a-8845-40ad-8570-d79d61f00012")
+		(property "Reference" "#PWR7006"
+			(at 388.62 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+1V8"
+			(at 388.62 169.164 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 388.62 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 388.62 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V8\""
+			(at 388.62 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bc80e346-5214-41ee-844b-711f62fbef39")
+		)
+		(instances
+			(project "light-control"
+				(path "/5627b150-0a1a-4937-b777-1992b8e63110"
+					(reference "#PWR7006")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V8")
+		(at 109.22 172.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c05c725c-8060-4fc0-892a-c7464f3baf37")
+		(property "Reference" "#PWR7002"
+			(at 109.22 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+1V8"
+			(at 109.22 169.164 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V8\""
+			(at 109.22 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "89f2f243-fa2e-478a-a5a9-b8abfdfbb8e8")
+		)
+		(instances
+			(project "light-control"
+				(path "/5627b150-0a1a-4937-b777-1992b8e63110"
+					(reference "#PWR7002")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 260.35 209.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c8e7e9ea-d763-4aca-b513-42a2742de3d3")
+		(property "Reference" "H4"
+			(at 260.35 204.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "M3_NPTH_3.2mm"
+			(at 260.35 206.375 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Lights_Edge:MountingHole_M3_3.2mm_Clearance7mm"
+			(at 260.35 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 260.35 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "light-control"
+				(path "/5627b150-0a1a-4937-b777-1992b8e63110"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 157.48 160.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e99485fe-90e7-432e-8c1b-acf84286dd6d")
+		(property "Reference" "#PWR7003"
+			(at 157.48 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 157.48 156.464 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 157.48 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1987ea18-650d-4afe-8002-cea73b13b801")
+		)
+		(instances
+			(project "light-control"
+				(path "/5627b150-0a1a-4937-b777-1992b8e63110"
+					(reference "#PWR7003")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 388.62 231.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f8c3af34-80f9-459d-8e0f-7f156a875214")
+		(property "Reference" "#PWR7007"
+			(at 388.62 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 388.62 227.584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 388.62 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 388.62 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 388.62 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "30a8d648-d28c-4b98-8a4c-6ae16d5232db")
+		)
+		(instances
+			(project "light-control"
+				(path "/5627b150-0a1a-4937-b777-1992b8e63110"
+					(reference "#PWR7007")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 219.71 250.19)
+		(size 58.42 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "09b9dfbd-a642-43ca-829e-d2de201e1d10")
+		(property "Sheetname" "10_FNIRS_DRIVE"
+			(at 219.71 249.555 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "10_fnirs_drive.kicad_sch"
+			(at 219.71 273.685 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "light-control"
+				(path "/5627b150-0a1a-4937-b777-1992b8e63110"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 40.64)
+		(size 76.2 58.42)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "19f48e63-f7e9-419e-83b8-9cb226023d18")
+		(property "Sheetname" "01_USB_Protect"
+			(at 25.4 40.005 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "01_usb_protect.kicad_sch"
+			(at 25.4 99.695 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VBUS" output
+			(at 101.6 50.8 0)
+			(uuid "a5fc6785-caf1-4b14-a3f1-2f8554427029")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VBUS_DET" output
+			(at 101.6 60.96 0)
+			(uuid "a088a32c-a8bc-4e4b-b637-ff0a66d7d855")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_D-" bidirectional
+			(at 101.6 71.12 0)
+			(uuid "25242b16-c088-4750-ab5d-9c2f9478b0d0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_D+" bidirectional
+			(at 101.6 81.28 0)
+			(uuid "9fe7716b-0143-40f2-89b6-a15b22ea1337")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "light-control"
+				(path "/5627b150-0a1a-4937-b777-1992b8e63110"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 132.08)
+		(size 76.2 83.82)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "65aca6a1-a8fc-4d48-a55e-3fbb78d641b1")
+		(property "Sheetname" "02_Power"
+			(at 25.4 131.445 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "02_power.kicad_sch"
+			(at 25.4 216.535 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VBUS" input
+			(at 101.6 142.24 0)
+			(uuid "e0c63b48-5deb-4658-a9c5-4307f164a46d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PROBE_EN" input
+			(at 101.6 152.4 0)
+			(uuid "4f7a7863-213f-4cbb-8310-4c8cddc0c588")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+3V3" output
+			(at 101.6 162.56 0)
+			(uuid "9a1988d1-8755-48a3-b5c3-787d22dadc70")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+1V8" output
+			(at 101.6 172.72 0)
+			(uuid "90ef4f2d-7eb4-489d-9365-a20176c58347")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VPROBE_5V" output
+			(at 101.6 182.88 0)
+			(uuid "37dc1978-db70-48fa-87e9-c09329ab19a6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "light-control"
+				(path "/5627b150-0a1a-4937-b777-1992b8e63110"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 90.17 250.19)
+		(size 58.42 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "699de0b6-30e9-46f6-ba87-08fdce5db7e4")
+		(property "Sheetname" "08_FNIRS_SHORT"
+			(at 90.17 249.555 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "08_fnirs_short.kicad_sch"
+			(at 90.17 273.685 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "light-control"
+				(path "/5627b150-0a1a-4937-b777-1992b8e63110"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 250.19)
+		(size 58.42 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "7bcca392-af46-4e5b-b8cb-4f6e44d09105")
+		(property "Sheetname" "07_FNIRS_POWER"
+			(at 25.4 249.555 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "07_fnirs_power.kicad_sch"
+			(at 25.4 273.685 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "light-control"
+				(path "/5627b150-0a1a-4937-b777-1992b8e63110"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 154.94 250.19)
+		(size 58.42 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c6ee2224-5960-4638-b46b-3172484d87a0")
+		(property "Sheetname" "09_FNIRS_LONG"
+			(at 154.94 249.555 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "09_fnirs_long.kicad_sch"
+			(at 154.94 273.685 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "light-control"
+				(path "/5627b150-0a1a-4937-b777-1992b8e63110"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 304.8 40.64)
+		(size 76.2 76.2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "db6ce2f4-0a75-4155-aa6c-d5aebec2d701")
+		(property "Sheetname" "04_FNIRS_ADC"
+			(at 304.8 40.005 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "04_fpc_adc.kicad_sch"
+			(at 304.8 117.475 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "EN_760" input
+			(at 381 50.8 0)
+			(uuid "ad3a9daf-50a1-4b75-acc5-4bc3e6a7b03c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EN_850" input
+			(at 381 60.96 0)
+			(uuid "9444c3fc-5a46-41e8-b14b-55231805254a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ADC_ALERT" output
+			(at 381 71.12 0)
+			(uuid "c1030d06-c87f-4f7c-b66c-76a7bee1d007")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VPROBE_5V" input
+			(at 381 81.28 0)
+			(uuid "9dede387-c7dc-4159-928c-bb1b72d33aef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C0_SDA" bidirectional
+			(at 381 91.44 0)
+			(uuid "3593a009-5b89-4668-8293-d90c473dd8d3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C0_SCL" bidirectional
+			(at 381 101.6 0)
+			(uuid "2f96a94d-2d59-4bd5-9c47-cba3babed6bc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+3V3" input
+			(at 381 111.76 0)
+			(uuid "74023101-2e67-4b6e-81cd-44bf1ad5ee4c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "light-control"
+				(path "/5627b150-0a1a-4937-b777-1992b8e63110"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 165.1 40.64)
+		(size 76.2 139.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "dd0a7d85-b3d5-4155-b45f-d79a12264fb3")
+		(property "Sheetname" "03_ESP32_S3"
+			(at 165.1 40.005 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "03_esp32_s3_qfn.kicad_sch"
+			(at 165.1 180.975 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VBUS_DET" input
+			(at 165.1 60.96 180)
+			(uuid "af6ec280-e9cd-4caf-8650-8c09f21c926e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_D-" bidirectional
+			(at 165.1 71.12 180)
+			(uuid "7276219a-2070-43c8-a8e8-8e5b316873f1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_D+" bidirectional
+			(at 165.1 81.28 180)
+			(uuid "2b7800e3-de9b-4211-9e14-0612678e27f9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PROBE_EN" output
+			(at 241.3 50.8 0)
+			(uuid "e860a8d7-2186-4f5a-ad26-1f0fb904aa04")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+3V3" input
+			(at 165.1 160.02 180)
+			(uuid "07e35589-f7d2-4b54-ba91-cb26c44ce902")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EN_760" output
+			(at 241.3 60.96 0)
+			(uuid "c1e078c6-44ba-4867-837f-d1c79ca81111")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EN_850" output
+			(at 241.3 71.12 0)
+			(uuid "91cdb6f1-6ae2-4846-bee0-bf522e46cc15")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ADC_ALERT" input
+			(at 241.3 81.28 0)
+			(uuid "74af6daa-ad67-46a6-bc97-08e0f94d89fc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C0_SDA" bidirectional
+			(at 241.3 91.44 0)
+			(uuid "a7c06f41-04a5-4c98-9316-3b899c0c036c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C0_SCL" bidirectional
+			(at 241.3 101.6 0)
+			(uuid "a4d84346-c2dc-482e-b65b-d439cad0670d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AS7341_L_INT" input
+			(at 241.3 111.76 0)
+			(uuid "f20c3225-ecc4-4a9c-8555-a3abe2ead62c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C1_SDA" bidirectional
+			(at 241.3 121.92 0)
+			(uuid "5fe9b74a-340b-478d-8f21-82fe19ebeec3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C1_SCL" bidirectional
+			(at 241.3 132.08 0)
+			(uuid "4d8e86f1-ec38-47b7-b34a-90937c33c96e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AS7341_R_INT" input
+			(at 241.3 142.24 0)
+			(uuid "e8a7bb60-c934-4ae5-bb69-338ed9e17dd9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "light-control"
+				(path "/5627b150-0a1a-4937-b777-1992b8e63110"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 304.8 198.12)
+		(size 76.2 50.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "e1d74650-14ce-416c-addd-a82cbd040c47")
+		(property "Sheetname" "06_AS7341_Right"
+			(at 304.8 197.485 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "06_as7341_right.kicad_sch"
+			(at 304.8 249.555 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "AS7341_R_INT" output
+			(at 381 208.28 0)
+			(uuid "6f3743b5-be1b-4222-9ab7-5361781e6c05")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C1_SDA" bidirectional
+			(at 381 215.9 0)
+			(uuid "ca3222d2-d276-4eee-8fc1-a43b7ff3de74")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C1_SCL" bidirectional
+			(at 381 223.52 0)
+			(uuid "f4d6ca76-e43e-490b-aba8-b2624fcc434d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+3V3" input
+			(at 381 231.14 0)
+			(uuid "d8601258-1a01-410a-993a-ce18f74d2d5f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+1V8" input
+			(at 381 238.76 0)
+			(uuid "c3be89ee-3373-46cf-bbe6-0ac2351e8556")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "light-control"
+				(path "/5627b150-0a1a-4937-b777-1992b8e63110"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 304.8 132.08)
+		(size 76.2 50.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "fdd7a206-32c5-40e8-ab42-f158e46272f4")
+		(property "Sheetname" "05_AS7341_Left"
+			(at 304.8 131.445 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "05_as7341_left.kicad_sch"
+			(at 304.8 183.515 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "AS7341_L_INT" output
+			(at 381 142.24 0)
+			(uuid "27947445-b447-4f18-8191-00c75df1fac5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C0_SDA" bidirectional
+			(at 381 149.86 0)
+			(uuid "f2655ecb-1d79-4986-b6f6-80d2a2f5b765")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C0_SCL" bidirectional
+			(at 381 157.48 0)
+			(uuid "3587e6ae-66b2-4d28-b5e1-45d8af255238")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+3V3" input
+			(at 381 165.1 0)
+			(uuid "af08b642-9b86-46ba-8a8b-ba95901a3379")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+1V8" input
+			(at 381 172.72 0)
+			(uuid "d9de5a39-0fb8-4d35-842b-fc0c2874c8c5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "light-control"
+				(path "/5627b150-0a1a-4937-b777-1992b8e63110"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

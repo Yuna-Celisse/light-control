@@ -1,0 +1,294 @@
+(footprint "AMS_OLGA-8_2x3.1mm_P0.8mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "AMS  OLGA, 8 Pin (https://ams.com/documents/20143/36005/AS7341_DS000504_3-00.pdf/#page=63)")
+	(tags "AMS OLGA NoLead")
+	(property "Reference" "REF**"
+		(at 0 -2.7 0)
+		(layer "F.Fab")
+		(uuid "73bfa214-39a1-4475-bd56-400a8e6f3ac0")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "AS7341-DLGT"
+		(at 0 2.6 0)
+		(layer "F.Fab")
+		(uuid "ce7bb83f-c009-4220-9839-f8dedb479962")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://ams.com/documents/20143/36005/AS7341_DS000504_3-00.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7153ebca-e9c6-4279-8c54-13f0547ef6c5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "11-Channel Multi-Spectral Digital Sensor, OLGA-8"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9639b204-08ec-4b76-a613-4bf413345cdc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "AS7341-DLGT"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "936bf578-452e-435a-8525-85f55ecff963")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "ams OSRAM"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a6a04b1a-7d9b-4b45-9b4e-eb82a19e30da")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property ki_fp_filters "AMS*OLGA*2x3.1mm*P0.8mm*")
+	(sheetname "/05_AS7341_Left/")
+	(sheetfile "05_as7341_left.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1 1.71)
+		(end 1 1.71)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aad7cab6-28e5-44a7-ab60-3a7e4db38a28")
+	)
+	(fp_line
+		(start -0.8 -1.71)
+		(end 1 -1.71)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "72674286-7faf-4b9f-b746-508f2fb91b10")
+	)
+	(fp_poly
+		(pts
+			(xy -1 -1.71) (xy -1.36 -1.71) (xy -1 -2.07) (xy -1 -1.71)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "8a7e786e-4df3-4d96-999a-99e2a3c711b9")
+	)
+	(fp_line
+		(start -1.25 -1.8)
+		(end -1.25 1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "672505f2-e3cc-4994-8ac6-018a61b019cd")
+	)
+	(fp_line
+		(start -1.25 1.8)
+		(end 1.25 1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "298ffad1-33e6-4f26-97d7-b5f5c619be81")
+	)
+	(fp_line
+		(start 1.25 -1.8)
+		(end -1.25 -1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c7c8ba6b-b50c-487c-a730-f2e96e04179a")
+	)
+	(fp_line
+		(start 1.25 1.8)
+		(end 1.25 -1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1a994f56-1dea-4ecc-bf3f-eadd79c19803")
+	)
+	(fp_line
+		(start -1 -1.05)
+		(end -0.5 -1.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a7181ed3-9d69-443c-9f7e-2a1df7a3241b")
+	)
+	(fp_line
+		(start -1 1.55)
+		(end -1 -1.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8436386c-e23e-4126-852b-05913485e4a6")
+	)
+	(fp_line
+		(start -0.5 -1.55)
+		(end 1 -1.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b187df75-3388-4283-9438-125c45e4014b")
+	)
+	(fp_line
+		(start 1 -1.55)
+		(end 1 1.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bf4fb34a-e8b5-4b41-b72a-e14768f4a4ee")
+	)
+	(fp_line
+		(start 1 1.55)
+		(end -1 1.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "467a4e3c-6ef5-4776-a924-b95d40d0f82f")
+	)
+	(fp_circle
+		(center 0 -0.609)
+		(end 0.45 -0.609)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "cefb955f-f372-4c51-9932-fc3a01e4d4a2")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0.25 0)
+		(layer "F.Fab")
+		(uuid "a35ab544-f54e-49d3-a5b4-ba7af61559a9")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.638 -1.2)
+		(size 0.575 0.488)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0)
+		(chamfer_ratio 0.3625)
+		(chamfer bottom_right)
+		(uuid "8d2109ed-a771-4791-b425-673b45875215")
+	)
+	(pad "2" smd rect
+		(at -0.638 -0.4)
+		(size 0.575 0.488)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "44855a64-67c5-4d01-ba69-5c5cb3d37183")
+	)
+	(pad "3" smd rect
+		(at -0.638 0.4)
+		(size 0.575 0.488)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "94e5e7d6-a876-40ab-a76b-d978789aa917")
+	)
+	(pad "4" smd rect
+		(at -0.638 1.2)
+		(size 0.575 0.488)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c5bcae3f-0828-43b7-85f1-b4f695ceef12")
+	)
+	(pad "5" smd rect
+		(at 0.638 1.2)
+		(size 0.575 0.488)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8372a647-0166-40e3-9b52-66dae6510509")
+	)
+	(pad "6" smd rect
+		(at 0.638 0.4)
+		(size 0.575 0.488)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7ec13193-51aa-4b9b-8d43-5ddb42c1454b")
+	)
+	(pad "7" smd rect
+		(at 0.638 -0.4)
+		(size 0.575 0.488)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "10711a4f-026c-463c-87b6-40c08fd8ffc9")
+	)
+	(pad "8" smd rect
+		(at 0.638 -1.2)
+		(size 0.575 0.488)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5b8097de-304d-4b95-a3ba-d3f232574c27")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Package_LGA.3dshapes/AMS_OLGA-8_2x3.1mm_P0.8mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
