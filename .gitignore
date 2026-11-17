@@ -11,13 +11,6 @@
 !/sym-lib-table
 !/FNIRS.pretty/
 !/Lights_Edge.pretty/
-!/BOM/
-/BOM/*
-!/BOM/20261029/
-/BOM/20261029/*
-!/BOM/20261029/README.md
-!/BOM/20261029/light-control-BOM.csv
-!/BOM/20261029/light-control-BOM-detail.csv
 !/docs/
 *.lck
 *.kicad_prl

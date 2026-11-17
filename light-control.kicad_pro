@@ -526,6 +526,17 @@
         "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3
+      },
+      {
+        "clearance": 0.127,
+        "name": "USB_FS",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": -1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
       }
     ],
     "meta": {
@@ -549,6 +560,26 @@
       {
         "netclass": "Power",
         "pattern": "/VPROBE_5V"
+      },
+      {
+        "netclass": "USB_FS",
+        "pattern": "/USB_D+"
+      },
+      {
+        "netclass": "USB_FS",
+        "pattern": "/USB_D-"
+      },
+      {
+        "netclass": "USB_FS",
+        "pattern": "Net-(U5-PA11)"
+      },
+      {
+        "netclass": "USB_FS",
+        "pattern": "Net-(U5-PA12)"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "VPROBE_5V"
       }
     ]
   },
